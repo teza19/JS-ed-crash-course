@@ -48,6 +48,9 @@ var addFunc = new Function("a","b" , "return a + b");
 var r = addFunc(5,6)
 console.log(r);
 
-document.write("bhale manchi roju , pasandin roju")
 
+function addStrings(str1, str2) {
+  return str1 + ", " + str2;
+}
 
+console.log(addStrings("Hello", "world"));

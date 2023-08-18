@@ -1,5 +1,5 @@
 console.log("hello");
-console.log("this the javascript teza");
+console.log("this the javascript");
 //alert("Yoooo!");
 
 for (a=1; a<10; a++) {
@@ -9,7 +9,6 @@ for (a=1; a<10; a++) {
 
 //data types
 
-document.write("hello");
 
 var i = 100;
 console.log(i);

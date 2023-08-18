@@ -1,11 +1,60 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <script src="operators.js">
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      h1 {
+        color: red;
+        text-align: center;
+        border: 20px solid red;
+        background-color: aqua;
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        margin-top: 20px;
+        align-items: center;
+      }
+    </style>
+    <style>
+      .box {
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        border: 2px solid black;
+        margin: 30px;
+      }
+    </style>
+    <style>
+      .flex-container {
+        display: flex;
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        height: 300px;
+        border: 2px solid black;
+      }
+
+      .item {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <script src="fucntions.js"></script>
+    <div style="width: 200px; height: 100px; padding: 10px; margin: 20px">
+      This is a box with a width of 200px, a height of 100px, and padding of
+      10px.
+    </div>
+    <div class="box">This is a box.</div>
+    <div class="flex-container">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </body>
 </html>
